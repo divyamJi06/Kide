@@ -74,7 +74,7 @@ class _AddProfileState extends State<AddProfile> {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget>[
                     WeirdTextField(
-                      hintText: "Roll",
+                      hintText: "Rolls",
                       controller: _rollController,
                     ),
                     WeirdTextField(
@@ -86,7 +86,7 @@ class _AddProfileState extends State<AddProfile> {
                       controller: _batchController,
                     ),
                     WeirdTextField(
-                      hintText: "Branch",
+                      hintText: "Branches",
                       controller: _branchController,
                     ),
                     WeirdAuthButton(
